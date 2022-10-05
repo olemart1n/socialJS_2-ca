@@ -1,0 +1,33 @@
+@import "variables.scss";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+$custom-theme-colors: (
+  "grey-ish": #a6bab9,
+  "lighter": #c6cbca,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.index-post-img {
+  max-height: 150px;
+  max-width: 250px;
+  object-fit: contain;
+}
+
+.profile-sircle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid $light;
+  content: "";
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #a6bab9;
+}
+
+span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
