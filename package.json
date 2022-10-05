@@ -1,0 +1,33 @@
+{
+  "name": "socialjs_2-ca",
+  "version": "1.0.0",
+  "description": "JavaScript 2 Course Assigment noroff",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss/styles.scss:dist/styles.css",
+    "watch": "sass --watch src/scss/styles.scss:dist/styles.css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olemart1n/socialJS_2-ca.git"
+  },
+  "keywords": [
+    "course",
+    "assignment",
+    "social",
+    "media"
+  ],
+  "author": "Ole M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olemart1n/socialJS_2-ca/issues"
+  },
+  "homepage": "https://github.com/olemart1n/socialJS_2-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.55.0"
+  }
+}
